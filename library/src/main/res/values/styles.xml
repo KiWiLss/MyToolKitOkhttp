@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--通用的返回图标-->
+    <style name="LeftBack">
+        <item name="android:layout_width">90px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@mipmap/back</item>
+        <item name="android:paddingLeft">30px</item>
+        <item name="android:paddingTop">25px</item>
+        <item name="android:paddingBottom">25px</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+    <!--侧滑关闭主题-->
+    <style name="Theme.Swipe.Back" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/rl_base_actionbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="90px"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/img_base_back"
+        style="@style/LeftBack"
+        android:tint="@color/white"
+        />
+    <TextView
+        android:id="@+id/tv_base_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="36px"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/tv_base_rightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="90px"
+        android:text="@string/app_name"
+        android:textSize="30px"
+        android:layout_alignParentRight="true"
+        android:gravity="end|center_vertical"
+        android:paddingRight="30px"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/img_base_right"
+        android:layout_width="90px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher"
+        android:paddingRight="30px"
+        android:paddingTop="25px"
+        android:paddingBottom="25px"
+        android:scaleType="fitEnd"
+        android:visibility="gone"
+        />
+
+</com.zhy.autolayout.AutoRelativeLayout>
